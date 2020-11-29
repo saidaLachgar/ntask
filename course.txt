@@ -1,0 +1,32 @@
+00:00 Introduction
+01:49 Demo
+04:23 Installing and setting up Laravel
+07:08 Routes(Get) + views 
+09:08 layouts[ Yield() + extand() + section() ]
+10:35 Laravel Mix and Tailwind
+15:18 Styling the layout
+17:35 Running migrations (set database + migrate + rollback + Model)
+22:57 Registering users -> Controller store[validation:33:06 - Create:39:11 - redirect:42:01] + Route(post) + Form [Confirm Pass + @csrf]
+46:46 Authenticated state
+48:30 Logging in
+53:47 Logging out
+57:52 Middleware
+01:06:12 Post form
+01:09:26 Setting up posts
+01:16:06 User/post relationship
+01:18:49 Creating a post
+01:20:14 Listing posts
+01:27:37 Pagination
+01:30:31 Seeding with model factories
+01:33:54 Liking and unliking posts
+01:48:50 Eager loading
+01:53:40 Deleting our posts
+01:56:46 Authorization
+02:02:47 User profile page
+02:06:49 Blade components
+02:10:54 Like count Eloquent relationship
+02:12:41 Single post page
+02:14:18 Sending email
+02:21:23 Soft deleting models
+02:26:31 Final tidying
+02:28:20 Wrapping up

@@ -1,4 +1,4 @@
-@extends('masterpage.layout')
+@extends('masterPage.layout')
 @section('content')
     <div class="row justify-content-center">
         <div class="col-12 col-xl-5 col-lg-5">

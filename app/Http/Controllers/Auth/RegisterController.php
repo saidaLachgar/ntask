@@ -16,7 +16,7 @@ class RegisterController extends Controller
         $this->middleware("guest");
     }
     public function index(){
-        return view("auth.register");
+        return view("Auth.register");
     }
     public function store(request $request){
 

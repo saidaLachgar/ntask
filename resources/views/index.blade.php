@@ -1,7 +1,7 @@
 @extends('masterPage.layout')
 @section('content')
     <div class="row h-75 mt-4 justify-content-center pt-5">
-        <div class="col-2 d-none d-xl-block d-lg-block border-right ml-4">
+        <div class="col-2 d-none d-xl-block d-lg-block border-right p-0">
             <div class="row">
                 @php
                     $date = new DateTime("now", new DateTimeZone(auth()->user()->timezone) );

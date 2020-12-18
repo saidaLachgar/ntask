@@ -16,7 +16,7 @@
                     $Route=Route::currentRouteName();
                 @endphp
                 <div class="col-3 p-0 align-items-center d-flex"><img src="{{ asset('img/img ('.$img.').png') }}" alt="" class="w-100"></div>
-                <div class="col-9"><h4 class="m-0 font-weight-bold text-capitalize">{{$greetings}} {{ strtok(auth()->user()->name, " ") }}.</h4></div>
+                <div class="col-9"><h5 class="m-0 font-weight-bold text-capitalize">{{$greetings}} {{ strtok(auth()->user()->name, " ") }}.</h5></div>
             </div>
         <div class="row mb-2 mt-4"><a class="@if($Route!="Tasks") text-body @endif" href="{{ Route('Tasks') }}"><span class="h5 m-0"><i class="h6 mb-0 mr-2 ri-inbox-line"></i>Inbox</span></a></div>
             <div class="row mb-2"><a class="@if($Route!="Today") text-body @endif" href="{{ Route('Today') }}"><span class="h5 m-0"><i class="h6 mb-0 mr-2 ri-focus-3-line"></i>Today</span></a></div>
